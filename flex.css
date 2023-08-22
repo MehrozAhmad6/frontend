@@ -1,0 +1,32 @@
+.box{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row-reverse;
+    border:solid black;
+    margin:20px;
+}
+.inline{
+    background-color: crimson;
+    display: flex;
+    align-items: flex-start;
+    height: 30px;
+    width: 60px;
+}
+#one{
+    background-color: beige;
+    width:60px;
+    height:60px;
+    padding: 60px;
+}
+#four
+{
+    flex :1 1 auto;
+}
+#five
+{
+    flex:1 1 auto;
+}
+#six
+{
+    flex:1 1 auto;
+}

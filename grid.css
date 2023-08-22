@@ -1,0 +1,78 @@
+.wrapper{
+    display:grid;
+    /* grid-template-columns: auto auto ; */
+    /* grid-template-rows: auto auto auto auto; */
+    grid-gap: 20px;
+}
+#one{
+    background-color: orange;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+#two{
+    background-color: aqua;
+    grid-column-start:1 ;
+    grid-row-start: 2;
+}
+#three
+{
+    background-color:firebrick;
+    grid-column-start:1 ;
+    grid-row-start: 3;
+}
+#four
+{
+    background-color: salmon;
+    grid-column-start:1 ;
+    grid-row-start: 4;
+}
+#five{
+    background-color: violet ;
+    grid-column-start:1 ;
+    grid-row-start: 5;
+}
+#six{
+    background-color: dimgrey;
+    grid-column-start:2 ;
+    grid-row-start: 1;
+}
+#seven{
+    background-color: khaki;
+    grid-column-start:2;
+    grid-row-start: 2;
+}
+#eight{
+    background-color: teal;
+    grid-column-start:1 ;
+    grid-row-start: 6;
+}
+#nine{
+    background-color: blanchedalmond;
+    grid-column-start:1;
+    grid-row-start: 7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    /* min-height: 100vh; */
+}
+.inner-container{
+    background-color: blue;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.left-container{
+    background-color: red;
+    display: flex;
+    flex:1
+}
+
+.right-container{
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction:column;
+    flex: 1;
+}
